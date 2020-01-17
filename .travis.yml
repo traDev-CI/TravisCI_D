@@ -5,6 +5,6 @@ before_script:
   - sudo apt-get update
   - sudo apt-get -y upgrade
   - sudo apt-cache pkgnames | grep php7.0
-  - sudo apt-get install -y php7.0 php7.0-cli php7.0-common php7.0-mbstring php7.0-intl php7.0-xml php7.0-mysql php7.0-mcrypt
+  - sudo apt-get install -y php7.0-cli
   - sudo php -v
 script: php7.2.0 Hello_World.php
