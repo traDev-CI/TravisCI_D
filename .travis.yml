@@ -1,4 +1,4 @@
-language: python
-python:
-- 3.4
-script: python3 test_fruits.py
+language: php
+php:
+- 7.2
+script: php7 Hello_World.php
