@@ -2,8 +2,8 @@ language: php
 php:
 - 7.2
 before_script: 
-  - sudo apt-get update
-  - sudo apt-get upgrade
+  - sudo apt update
+  - sudo apt upgrade
   - sudo apt-cache pkgnames | grep php7.0
   - sudo apt install -y php7.0 php7.0-cli php7.0-common php7.0-mbstring php7.0-intl php7.0-xml php7.0-mysql php7.0-mcrypt
   - sudo php -v
