@@ -1,4 +1,4 @@
 language: php
 php:
 - 7.2
-script: php7 Hello_World.php
+script: php7.0 Hello_World.php
